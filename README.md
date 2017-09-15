@@ -139,6 +139,7 @@ http://symfony.com/doc/3.0/cookbook/bundles/inheritance.html
 * Event dispatcher and kernel events  
 http://symfony.com/doc/3.0/cookbook/event_dispatcher/event_listener.html
 * Semantic configuration and compiler passes  
+http://symfony.com/doc/current/components/config/definition.html  
 http://symfony.com/doc/3.0/cookbook/service_container/compiler_passes.html  
 http://symfony.com/doc/3.0/components/dependency_injection/compilation.html
 

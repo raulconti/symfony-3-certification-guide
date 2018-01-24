@@ -124,10 +124,10 @@ http://semver.org/
 * Naming conventions  
 http://symfony.com/doc/3.0/cookbook/bundles/best_practices.html#bundle-name
 * Code organization  
+http://symfony.com/doc/3.0/bundles.html  
 http://symfony.com/doc/3.0/cookbook/bundles/best_practices.html#directory-structure
 * Controllers  
 http://symfony.com/doc/3.0/book/controller.html  
-http://symfony.com/doc/3.0/cookbook/bundles/best_practices.html#controllers
 * The views  
 http://symfony.com/doc/3.0/quick_tour/the_view.html
 * The resources  
@@ -179,11 +179,11 @@ http://symfony.com/doc/3.0/book/controller.html#the-base-controller-class
 
 #### **Routing**
 * Configuration (YAML / XML / PHP & annotations)  
-http://symfony.com/doc/3.0/book/routing.html#basic-route-configuration
+http://symfony.com/doc/3.0/routing.html#routing-examples
 * Restrict URL parameters  
-http://symfony.com/doc/3.0/book/routing.html#routing-with-placeholders
+http://symfony.com/doc/3.0/routing.html#adding-wildcard-requirements
 * Set default values to URL parameters  
-http://symfony.com/doc/3.0/book/routing.html#required-and-optional-placeholders
+http://symfony.com/doc/3.0/routing.html#giving-placeholders-a-default-value
 * Generate URL parameters  
 http://symfony.com/doc/3.0/book/routing.html#generating-urls
 * Trigger redirects  
@@ -194,13 +194,14 @@ http://symfony.com/doc/3.0/cookbook/routing/extra_information.html
 * Domain name matching  
 http://symfony.com/doc/3.0/components/routing/hostname_pattern.html
 * Conditional request matching  
-http://symfony.com/doc/3.0/book/routing.html#completely-customized-route-matching-with-conditions
+http://symfony.com/doc/3.0/routing/conditions.html
 * HTTP methods matching  
 http://symfony.com/doc/3.0/cookbook/routing/method_parameters.html
-* User's locale guessing  
+* User's locale guessing
+http://symfony.com/doc/3.0/translation/locale.html  
 http://symfony.com/doc/3.0/reference/forms/types/locale.html
 * Router debugging  
-http://symfony.com/doc/3.0/book/routing.html#visualizing-debugging-routes
+http://symfony.com/doc/3.0/routing/debug.html
 
 ---
 
@@ -213,20 +214,24 @@ http://twig.sensiolabs.org/doc/tags/extends.html
 http://twig.sensiolabs.org/doc/templates.html#template-inheritance  
 http://symfony.com/doc/3.0/book/templating.html#template-inheritance-and-layouts
 * Global variables  
-http://symfony.com/doc/3.0/cookbook/templating/global_variables.html
+http://symfony.com/doc/3.0/cookbook/templating/global_variables.html  
+http://symfony.com/doc/3.0/templating/app_variable.html  
+http://twig.symfony.com/doc/2.x/templates.html#global-variables
 * Filters and functions  
 http://twig.sensiolabs.org/doc/filters/index.html  
+http://twig.sensiolabs.org/doc/functions/index.html  
 http://symfony.com/doc/3.0/cookbook/templating/twig_extension.html
 * Template includes  
 http://twig.sensiolabs.org/doc/tags/include.html
 * Loops and conditions  
 http://twig.sensiolabs.org/doc/tags/for.html  
-http://twig.sensiolabs.org/doc/tags/if.html
+http://twig.sensiolabs.org/doc/tags/if.html  
+http://twig.symfony.com/doc/2.x/tests/index.html
 * Urls generation  
 http://symfony.com/doc/3.0/book/routing.html#generating-urls-from-a-template  
 http://symfony.com/doc/3.0/book/templating.html#linking-to-pages
 * Controller rendering  
-http://symfony.com/doc/3.0/book/templating.html#embedding-controllers
+http://symfony.com/doc/3.0/templating/embedding_controllers.html
 * Translations and pluralization  
 http://symfony.com/doc/3.0/book/translation.html#translations-in-templates
 * String interpolation  
@@ -248,12 +253,14 @@ http://symfony.com/doc/3.0/best_practices/forms.html#handling-form-submits
 http://symfony.com/doc/3.0/book/forms.html#creating-form-classes  
 http://symfony.com/doc/3.0/book/forms.html#built-in-field-types
 * Forms rendering with Twig  
-http://symfony.com/doc/3.0/book/forms.html#rendering-a-form-in-a-template
+http://symfony.com/doc/3.0/forms.html#rendering-the-form  
+http://symfony.com/doc/3.0/form/rendering.html  
+http://symfony.com/doc/3.0/reference/forms/twig_reference.html
 * Forms theming  
 http://symfony.com/doc/3.0/cookbook/form/form_customization.html#what-are-form-themes  
-http://symfony.com/doc/3.0/book/forms.html#form-theming
+http://symfony.com/doc/3.0/form/form_themes.html
 * CSRF protection  
-http://symfony.com/doc/3.0/book/forms.html#csrf-protection
+http://symfony.com/doc/3.0/form/csrf_protection.html
 * Handling file upload  
 http://symfony.com/doc/3.0/cookbook/controller/upload_file.html  
 http://symfony.com/doc/3.0/reference/forms/types/file.html
@@ -277,9 +284,10 @@ http://symfony.com/doc/3.0/reference/constraints.html
 * Validation scopes  
 http://symfony.com/doc/3.0/cookbook/validation/custom_constraint.html#class-constraint-validator
 * Validation groups  
-http://symfony.com/doc/3.0/book/validation.html#validation-groups
+http://symfony.com/doc/3.0/validation/groups.html  
+http://symfony.com/doc/3.0/validation/sequence_provider.html
 * Group sequence  
-http://symfony.com/doc/3.0/book/validation.html#group-sequence
+http://symfony.com/doc/3.0/validation/sequence_provider.html
 * Custom callback validators  
 http://symfony.com/doc/3.0/cookbook/validation/custom_constraint.html  
 http://symfony.com/doc/3.0/reference/constraints/Callback.html  
@@ -291,7 +299,8 @@ http://symfony.com/doc/3.0/cookbook/validation/custom_constraint.html#creating-t
 
 #### **Dependency Injection**
 * Service container  
-http://symfony.com/doc/3.0/book/service_container.html
+http://symfony.com/doc/3.0/book/service_container.html  
+https://knpuniversity.com/screencast/symfony-journey-di
 * Built-in services  
 http://symfony.com/doc/3.0/book/service_container.html#debugging-services
 * Configuration parameters  
@@ -300,7 +309,7 @@ http://symfony.com/doc/3.0/components/dependency_injection/introduction.html#set
 * Services registration  
 http://symfony.com/doc/3.0/book/service_container.html#creating-configuring-services-in-the-container
 * Tags  
-http://symfony.com/doc/3.0/book/service_container.html#tags  
+http://symfony.com/doc/3.0/service_container/tags.html  
 http://symfony.com/doc/3.0/reference/dic_tags.html
 * Semantic configuration  
 http://symfony.com/doc/3.0/cookbook/bundles/extension.html
@@ -369,7 +378,7 @@ http://symfony.com/doc/3.0/book/http_cache.html#using-edge-side-includes
 * Built-in commands  
 http://symfony.com/doc/3.0/components/console/usage.html#built-in-commands
 * Custom commands  
-http://symfony.com/doc/3.0/components/console.html#creating-a-console-application
+http://symfony.com/doc/3.0/components/console.html#creating-a-console-application  
 http://symfony.com/doc/3.0/console.html
 * Configuration  
 http://symfony.com/doc/3.0/console.html#configuring-the-command
@@ -378,7 +387,7 @@ http://symfony.com/doc/3.0/console/input.html#using-command-arguments
 http://symfony.com/doc/3.0/console/input.html#using-command-options
 http://symfony.com/doc/3.0/components/console/console_arguments.html
 * Input and Output objects  
-http://symfony.com/doc/3.0/console.html#console-input
+http://symfony.com/doc/3.0/console.html#console-input  
 http://symfony.com/doc/3.0/console.html#executing-the-command
 * Built-in helpers  
 http://symfony.com/doc/3.0/components/console/helpers/index.html
